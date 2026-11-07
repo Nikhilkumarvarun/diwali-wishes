@@ -1,4 +1,4 @@
-:root{--gold:#ffb02e;--ver:#ff5a1f;--night:#16060f}
+:root{--gold:#ffb02e;--ver:#ff5a1f;--night:#2a0c1c}
 *{box-sizing:border-box;margin:0}
 html,body,#root{height:100%;overflow:hidden}
 body{background:var(--night);color:#fff4e0;font:400 1rem/1.5 Mukta,system-ui,sans-serif;-webkit-tap-highlight-color:transparent;touch-action:manipulation}
@@ -26,3 +26,4 @@ button.alt{background:#ffffff14;color:#ffe3c4;border:1px solid #ffb02e66;box-sha
 .dev nav{display:flex;flex-wrap:wrap;gap:4px 16px;justify-content:center}
 .dev a{color:var(--gold);text-decoration:none;border-bottom:1px solid #ffb02e55}
 @media (prefers-reduced-motion:reduce){*{animation:none!important;transition-duration:.01s!important}}
+.app::after{content:'';position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse at 50% 45%,transparent 60%,rgba(12,2,9,.4))}
